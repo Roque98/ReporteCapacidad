@@ -1,0 +1,163 @@
+:root {
+    /* Colores principales */
+    --main-bg-color: rgb(33, 33, 33); /* Color principal oscuro */
+    --success-color: rgb(40, 167, 69); /* Verde para estatus de éxito */
+    --warning-color: rgb(255, 193, 7); /* Amarillo para estatus de advertencia */
+    --error-color: rgb(220, 53, 69); /* Rojo para estatus de fallo */
+    --text-color-white: rgb(255, 255, 255); /* Blanco para textos */
+    --subtitle-gray: rgb(119, 119, 119); /* Gris opaco para subtítulos */
+
+    /* Line-height */
+    --line-height-small: 1.4;
+    --line-height-base: 1.6;
+    --line-height-large: 1.8;
+    --line-height-xlarge: 2;
+
+    /* Tipografía */
+    --font-size-small: 12px;
+    --font-size-base: 16px;
+    --font-size-large: 20px;
+    --font-size-xlarge: 24px;
+    --font-size-title: 28px;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* Espaciados */
+    --padding-small: 8px;
+    --padding-base: 16px;
+    --padding-large: 24px;
+    --margin-small: 8px;
+    --margin-base: 16px;
+    --margin-large: 24px;
+
+    /* familias texto */
+    --font-family: "ui-sans-serif, system-ui, sans-serif";
+
+     /* Variables de redondeo de esquinas */
+     --border-radius-none: 0;
+     --border-radius-small: 4px;
+     --border-radius-medium: 8px;
+     --border-radius-large: 12px;
+     --border-radius-full: 50%; /* Para elementos completamente redondeados, como círculos */
+ 
+     /* Redondeo específico por esquina */
+     --border-radius-top-left: 8px;
+     --border-radius-top-right: 8px;
+     --border-radius-bottom-left: 8px;
+     --border-radius-bottom-right: 8px;
+}
+
+
+
+.a4-page {
+    height: 1080px;
+    width: 1920px;
+    margin: 0 0;
+    background-color: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    font-family: var(--font-family);
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: var(--padding-base);
+    line-height: var(--line-height-base);
+}
+
+.header_subtitle {
+    text-align: center;
+    font-size: var(--font-size-large);
+    color: var(--subtitle-gray);
+    font-weight: var(--font-weight-bold);
+} 
+
+.header_title {
+    text-align: center;
+    font-size: var(--font-size-title);
+    color: var(--text-color-white);
+    font-weight: var(--font-weight-bold);
+    
+} 
+
+.header_footer {
+    display: grid;
+    justify-items: center;
+} 
+
+.header_footer_text {
+    text-align: center;
+    font-size: var(--font-size-large);
+    color: var(--text-color-white);
+    font-weight: var(--font-weight-bold);
+    border: 1px solid white;
+    padding: 0 var(--padding-base);
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: var(--margin-small) var(--margin-base);
+    gap: var(--margin-base)
+}
+
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.container_footer {
+    background-color: var(--main-bg-color);
+    grid-column: 1/3;
+    grid-row: 2/3  ;
+    border-top-left-radius: var(--border-radius-large);
+    border-top-right-radius: var(--border-radius-large);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.performance-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-size: var(--font-size-xlarge);
+    
+}
+
+.performance-container_title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: var(--font-size-large);
+
+}
+
+.performance-container_icon{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: grid;
+    justify-content: center;
+    font-size: var(--font-size-xlarge);
+    justify-self: end;
+}
+
+.performance-container_percent {
+    justify-self: start;
+}
