@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.2 41.89">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa_1">
+    <g>
+      <rect class="cls-1" x="7.09" y="6.24" width="29.02" height="29.02" rx="1.62" ry="1.62"/>
+      <polygon class="cls-2" points="30.45 29.59 12.76 29.59 12.76 11.9 25.47 11.9 30.45 17.43 30.45 29.59"/>
+      <g>
+        <line class="cls-1" x1="13.5" y1=".75" x2="13.5" y2="4.58"/>
+        <line class="cls-1" x1="18.79" y1=".8" x2="18.85" y2="4.5"/>
+        <line class="cls-1" x1="24.01" y1=".85" x2="24.1" y2="4.37"/>
+        <line class="cls-1" x1="29.29" y1=".91" x2="29.34" y2="4.43"/>
+      </g>
+      <g>
+        <line class="cls-1" x1=".75" y1="28.74" x2="4.58" y2="28.74"/>
+        <line class="cls-1" x1=".8" y1="23.45" x2="4.5" y2="23.39"/>
+        <line class="cls-1" x1=".85" y1="18.24" x2="4.37" y2="18.15"/>
+        <line class="cls-1" x1=".91" y1="12.96" x2="4.43" y2="12.9"/>
+      </g>
+      <g>
+        <line class="cls-1" x1="29.28" y1="41.14" x2="29.28" y2="37.31"/>
+        <line class="cls-1" x1="23.99" y1="41.09" x2="23.93" y2="37.39"/>
+        <line class="cls-1" x1="18.78" y1="41.03" x2="18.69" y2="37.52"/>
+        <line class="cls-1" x1="13.5" y1="40.98" x2="13.44" y2="37.46"/>
+      </g>
+      <g>
+        <line class="cls-1" x1="42.45" y1="12.32" x2="38.62" y2="12.32"/>
+        <line class="cls-1" x1="42.41" y1="17.61" x2="38.71" y2="17.67"/>
+        <line class="cls-1" x1="42.35" y1="22.82" x2="38.83" y2="22.91"/>
+        <line class="cls-1" x1="42.29" y1="28.1" x2="38.77" y2="28.16"/>
+      </g>
+      <line class="cls-1" x1="15.55" y1="14.69" x2="15.55" y2="25.56"/>
+    </g>
+  </g>
+</svg>
